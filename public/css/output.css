@@ -1,6 +1,5 @@
 html {
   background-color: #E4E9FD;
-/*  background-image: -webkit-linear-gradient(65deg, #37517e 50%, #E4E9FD 50%);*/
   min-height: 1000px;
 }
 body{
@@ -11,19 +10,11 @@ h1 {
   color: #fff;
   padding: 10px;
 }
-h2{
+h2 ,h3 ,h4 ,h5 ,h6{
   color: floralwhite;
   padding-bottom: 5px;
 }
-h4{
-  color:floralwhite;
-  padding: 10px;
-}
-h6{
-  color:floralwhite;
-  text-align: center;
-  padding: 10px;
-}
+
 .imgicon{
   margin-left: 140px;
 }
@@ -39,6 +30,7 @@ h6{
   background-color: #37517e;
   text-align: center;
 }
+
 
 .item {
   min-height: 70px;
@@ -74,7 +66,6 @@ button {
   color: floralwhite;
   font-size: 30px;
   padding-bottom: 6px;
-  margin-bottom: 10px;
   border-width: 0;
 }
 
@@ -98,7 +89,6 @@ input[type="text"]:focus {
   color:#37517e;
   opacity: 1;
 }
-
 footer{
 background-color:#3e5b8e;
 height: 50px;
@@ -110,4 +100,15 @@ bottom: 0;
 
 nav.back{
   background-color: #3e5b8e;
+}
+
+.weatherCard{
+ 
+  margin: 10px 10px 5px 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  background-color: #37517e;
+  margin-right: 10px: 
+  /*text-align: center;*/
+
 }
